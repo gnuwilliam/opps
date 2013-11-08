@@ -58,6 +58,24 @@ Now you can start a new Opps project
     python manage.py collectstatic --noinput
     python manage.py runserver
 
+Contributing
+============
+
+First, install (redis)[http://redis.io/], then the dev dependencies:
+
+.. code-block:: bash
+
+    pip install -r requirements-dev.txt
+
+Run the tests:
+
+ps: to execute Opps test suite, redis must be running.
+
+.. code-block:: bash
+
+    ./runtests.py
+
+Now you're ready to go!
 
 Sponsor
 =======
