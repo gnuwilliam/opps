@@ -61,7 +61,7 @@ Now you can start a new Opps project
 Contributing
 ============
 
-First, install (redis)[http://redis.io/], then the dev dependencies:
+First, install [redis](http://redis.io/), then the dev dependencies:
 
 .. code-block:: bash
 
